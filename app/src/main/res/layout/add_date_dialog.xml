@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/date_tv2"
+        android:layout_width="321dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:layout_weight="1"
+        android:text="Choose Date"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="30dp" />
+
+    <EditText
+        android:id="@+id/cal_got"
+        android:layout_width="323dp"
+        android:layout_height="46dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="Your Calories"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        app:layout_constraintTop_toBottomOf="@+id/date_tv2"
+        tools:layout_editor_absoluteX="30dp" />
+
+    <Button
+        android:id="@+id/button_add"
+        android:layout_width="323dp"
+        android:layout_height="51dp"
+        android:layout_weight="1"
+        android:text="Add calories"
+        app:layout_constraintTop_toBottomOf="@+id/cal_got"
+        tools:layout_editor_absoluteX="29dp" />
+</android.support.constraint.ConstraintLayout>

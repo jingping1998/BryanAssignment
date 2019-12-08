@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Fitness First - Fitness Helper</string>
+    <string name="countCalories">Count Your Calories</string>
+    <string name="date_picker_message">Choose A Date:</string>
+    <string-array name="activeness">
+        <item>Very Light (0&#8211;1 days)</item>
+        <item>Light (1&#8211;2 days)</item>
+        <item>Moderate (3&#8211;4 days)</item>
+        <item>Heavy (5 days)</item>
+        <item>Very Heavy (6&#8211;7 days)</item>
+    </string-array>
+</resources>
